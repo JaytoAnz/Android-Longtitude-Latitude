@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+        <color name="facebook_color">#3b5999</color>
+        <color name="facebook_color_shadow">#2b447a</color>
+
+        <!-- BASE COLOR-->
+        <color name="actionbar_color">#3b5999</color>
+        <color name="systemtint_color">#2b447a</color>
+        <color name="tab_color">#3b5999</color>
+        <color name="tab_strip_color">#869ECC</color>
+        <color name="bg_color">#eaeaea</color>
+
+        <!-- TEXT COLOR-->
+        <color name="text_color_black">#000</color>
+
+        <!-- IMAGE COLOR-->
+        <color name="image_color">#e0e0e0</color>
+
+        <color name="white">#FFFFFF</color>
+        <color name="transparent">#00000000</color>
+        <color name="gradStart">#19AA8B</color>
+        <color name="gradStop">#23A7D8</color>
+
+</resources>

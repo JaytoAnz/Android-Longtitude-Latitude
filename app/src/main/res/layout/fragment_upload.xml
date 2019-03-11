@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowSoftInputMode="adjustResize"
+    android:background="@drawable/grad_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/border">
+
+        <ImageView
+            android:id="@+id/upload_lap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_photo_camera_black_24dp" />
+
+        <ImageView
+            android:id="@+id/tampil_lap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="50dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/txtJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="highlight"
+            android:hint="Judul"
+            android:inputType="textPersonName"
+            app:met_textColor="@color/white"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_primaryColor="@color/white"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/txtDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="highlight"
+            android:hint="Deskripsi"
+            android:inputType="textCapCharacters|textMultiLine"
+            app:met_textColor="@color/white"
+            app:met_floatingLabelTextColor="@color/white"
+            app:met_primaryColor="@color/white"
+            app:met_minCharacters="30"
+            android:gravity="top"/>
+
+        <Button
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btn_laporkan"
+            android:textColor="@color/white"
+            android:text="LAPORKAN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"/>
+
+        <TextView
+            android:id="@+id/txtlongtitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="8dp"/>
+
+        <TextView
+            android:id="@+id/txtlatitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="8dp"/>
+
+        <TextView
+            android:id="@+id/txtID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="8dp"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
